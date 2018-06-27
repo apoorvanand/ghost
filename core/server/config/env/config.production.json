@@ -1,5 +1,5 @@
 {
-    "url": "https://apoorvanand.glitch.me/",
+    "url": "https://ghost-ghost.a3c1.starter-us-west-1.openshiftapps.com/",
     "database": {
         "client": "sqlite3",
         "connection": {
