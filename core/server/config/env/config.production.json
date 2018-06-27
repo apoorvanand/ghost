@@ -1,5 +1,6 @@
 {
     "url": "https://ghost-ghost.a3c1.starter-us-west-1.openshiftapps.com/",
+    "mail": { "transport": "SMTP", "options": { "service": "Sendgrid", "auth": { "user": "andyboutte", "pass": "tc$A7[yf3k!pI0W1j|6L" } } } ,
     "database": {
         "client": "sqlite3",
         "connection": {
