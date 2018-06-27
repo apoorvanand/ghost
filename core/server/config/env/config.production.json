@@ -1,21 +1,26 @@
 {
+    "url": "https://apoorvanand.glitch.me/",
     "database": {
-        "client": "mysql",
+        "client": "sqlite3",
         "connection": {
-            "host"     : "127.0.0.1",
-            "user"     : "root",
-            "password" : "",
-            "database" : "ghost"
-        }
+            "filename": "content/data/ghost-dev.db"
+        },
+        "debug": false
     },
     "paths": {
         "contentPath": "content/"
     },
-    "logging": {
-        "level": "info",
-        "rotation": {
-            "enabled": true
+    "privacy": {
+        "useRpcPing": false,
+        "useUpdateCheck": true
+    },
+    "useMinFiles": false,
+    "caching": {
+        "theme": {
+            "maxAge": 0
         },
-        "transports": ["file", "stdout"]
+        "admin": {
+            "maxAge": 0
+        }
     }
 }
