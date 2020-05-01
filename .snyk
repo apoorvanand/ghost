@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - bookshelf-relations > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - gscan > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - gscan > express-hbs > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - amperize > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - analytics-node > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - archiver > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - bookshelf > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - knex > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - ghost-gql > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - ghost-ignition > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - knex-migrator > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - '@nexes/nql > @nexes/mongo-knex > lodash':
+        patched: '2020-05-01T02:34:58.671Z'
+    - amperize > async > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - local > async > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - bookshelf-relations > ghost-ignition > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - knex-migrator > ghost-ignition > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - brute-knex > eslint > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - brute-knex > knex > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - knex-migrator > knex > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - brute-knex > eslint > inquirer > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
+    - brute-knex > eslint > table > lodash:
+        patched: '2020-05-01T02:34:58.671Z'
